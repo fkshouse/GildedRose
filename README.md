@@ -15,7 +15,7 @@ I'm not sure if those were mistakes made when writing up the instructions or if 
 
 
 
-Code explanations and decisions made
+## Code explanations and decisions made
 
 I refactored the code and made it less coupled and removed all the nested if statements.
 
@@ -35,7 +35,7 @@ The goal was to remove dependency on hardcoded values and do it the proper way b
 I added a couple of unit tests to tests basic situations, this could be expanded to include more tests with various different scenarios and data.
 
 
-Possible Future Improvements
+## Possible Future Improvements
 
 Option to add Items and Quality Change rates properly
 Using EF properly to structure DB access
@@ -46,7 +46,7 @@ More Unit tests to test all possible scenarios
 
 
 
-Setup Requirements
+## Setup Requirements
 
 Installing SQLite on Windows
 Download: Go to the SQLite Download Page and download the sqlite-tools-win-x64-xxxxxxx.zip bundle.
