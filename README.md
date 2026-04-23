@@ -38,10 +38,15 @@ I added a couple of unit tests to tests basic situations, this could be expanded
 ## Possible Future Improvements
 
 Option to add Items and Quality Change rates properly
+
 Using EF properly to structure DB access
+
 Entirely remove hardcoded values (items and quality change checks)
+
 As the list of Items could grow bigger, create a an alert or something to notify the user of items approaching their sell in days
+
 Many more features could be added that are part of a normal inventory manangement system thus allowing us to use proper coding patterns
+
 More Unit tests to test all possible scenarios
 
 
@@ -49,16 +54,27 @@ More Unit tests to test all possible scenarios
 ## Setup Requirements
 
 Installing SQLite on Windows
+
 Download: Go to the SQLite Download Page and download the sqlite-tools-win-x64-xxxxxxx.zip bundle.
+
 Extract: Extract the downloaded ZIP file to a dedicated folder, such as C:\sqlite.
+
 Add to PATH:
+
 Search for "Environment Variables" in the Windows search bar and select "Edit the system environment variables".
+
 Click "Environment Variables," then under "System variables," find and select "Path" and click "Edit".
+
 Click "New" and add the path to your C:\sqlite folder.
+
 Verify: Open Command Prompt, type sqlite3, and press Enter. If successful, you will see the SQLite version information
+
 Create a folder called database in the C drive and open a new Command Prompt.
+
 In the command prompt, navigate to the newly created database folder on the C drive with cd C:\database
+
 and type the following command to create the database and press enter: sqlite3 guildedrosedb
+
 Verify: Type .database and press enter. If the database was succesfully created you should see the following line: main: C:\database\guildedrosedb r/w
 
 
