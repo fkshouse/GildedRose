@@ -1,4 +1,4 @@
-Decisions and assumptions made from the instructions
+## Decisions and assumptions made from the instructions
 
 I'm not sure if those were mistakes made when writing up the instructions or if they were made on purpose for this exercise, but:
 
